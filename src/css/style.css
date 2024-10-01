@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Londrina Solid", sans-serif;
+  padding: 0;
+  background-image: url(https://img.freepik.com/premium-vector/pink-fairytale-sky-background-with-stars-rainbow-white-pastel-color-clouds-imaginary-world-fantasy-magic-beautiful-land-background-evening-fabulous-sky-vector-illustration_102902-3383.jpg?w=740);
+  background-size: cover; 
+  background-position: center; 
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+
+  h1{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+  }
+}
+
+.home-image {
+  width: 200px;
+  height: auto; 
+  margin-bottom: 20px; 
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #C75B7A;
+  border-color: #C75B7A;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #921A40;
+}
+
+.btn:active {
+  background-color: #921A40;
+  box-shadow: none;
+}
+
+.choices-container {
+  padding: 0 15px; 
+}
+
+.card {
+  margin-bottom: 20px; 
+}
+
+.card-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.confirmation-message {
+  width: auto;
+  font-size: 1.2em; /* Adjust the font size */
+  color: #4a4a4a; /* Dark gray color for the text */
+  margin-top: 15px; /* Space above the paragraph */
+  margin-bottom: 20px; /* Space below the paragraph */
+  font-weight: 500; /* Medium font weight */
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
